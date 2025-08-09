@@ -1,0 +1,893 @@
+Command: sudo /var/www/html/ShadowStrike/Scripts/endpoint_scan.sh 192.168.1.67 intense 
+Output:
+Selected Scan Type: intense
+Scanning 192.168.1.67 with the following command:
+sudo nmap -T4 -A -v -oA /var/www/html/scans/update/network_scan_tool/results/Endpoint/20241213_072953/nmap_output_20241213_072953 192.168.1.67
+Starting Nmap 7.94SVN ( https://nmap.org ) at 2024-12-13 07:29 EST
+NSE: Loaded 156 scripts for scanning.
+NSE: Script Pre-scanning.
+Initiating NSE at 07:29
+Completed NSE at 07:29, 0.00s elapsed
+Initiating NSE at 07:29
+Completed NSE at 07:29, 0.00s elapsed
+Initiating NSE at 07:29
+Completed NSE at 07:29, 0.00s elapsed
+Initiating Parallel DNS resolution of 1 host. at 07:29
+Completed Parallel DNS resolution of 1 host. at 07:29, 0.00s elapsed
+Initiating SYN Stealth Scan at 07:29
+Scanning kali (192.168.1.67) [1000 ports]
+Discovered open port 80/tcp on 192.168.1.67
+Completed SYN Stealth Scan at 07:29, 0.03s elapsed (1000 total ports)
+Initiating Service scan at 07:29
+Scanning 1 service on kali (192.168.1.67)
+Completed Service scan at 07:30, 6.04s elapsed (1 service on 1 host)
+Initiating OS detection (try #1) against kali (192.168.1.67)
+Retrying OS detection (try #2) against kali (192.168.1.67)
+Retrying OS detection (try #3) against kali (192.168.1.67)
+Retrying OS detection (try #4) against kali (192.168.1.67)
+Retrying OS detection (try #5) against kali (192.168.1.67)
+NSE: Script scanning 192.168.1.67.
+Initiating NSE at 07:30
+Completed NSE at 07:30, 0.14s elapsed
+Initiating NSE at 07:30
+Completed NSE at 07:30, 0.01s elapsed
+Initiating NSE at 07:30
+Completed NSE at 07:30, 0.00s elapsed
+Nmap scan report for kali (192.168.1.67)
+Host is up (0.000069s latency).
+Not shown: 999 closed tcp ports (reset)
+PORT   STATE SERVICE VERSION
+80/tcp open  http    Apache httpd 2.4.62 ((Debian))
+| http-methods: 
+|_  Supported Methods: HEAD GET POST OPTIONS
+|_http-server-header: Apache/2.4.62 (Debian)
+|_http-title: ARP Spoofing Tool
+No exact OS matches for host (If you know what OS is running on it, see https://nmap.org/submit/ ).
+TCP/IP fingerprint:
+OS:SCAN(V=7.94SVN%E=4%D=12/13%OT=80%CT=1%CU=42720%PV=Y%DS=0%DC=L%G=Y%TM=675
+OS:C28D3%P=x86_64-pc-linux-gnu)SEQ(SP=106%GCD=1%ISR=108%TI=Z%CI=Z%II=I%TS=A
+OS:)OPS(O1=MFFD7ST11NW7%O2=MFFD7ST11NW7%O3=MFFD7NNT11NW7%O4=MFFD7ST11NW7%O5
+OS:=MFFD7ST11NW7%O6=MFFD7ST11)WIN(W1=8200%W2=8200%W3=8200%W4=8200%W5=8200%W
+OS:6=8200)ECN(R=Y%DF=Y%T=40%W=8200%O=MFFD7NNSNW7%CC=Y%Q=)T1(R=Y%DF=Y%T=40%S
+OS:=O%A=S+%F=AS%RD=0%Q=)T2(R=N)T3(R=N)T4(R=Y%DF=Y%T=40%W=0%S=A%A=Z%F=R%O=%R
+OS:D=0%Q=)T5(R=Y%DF=Y%T=40%W=0%S=Z%A=S+%F=AR%O=%RD=0%Q=)T6(R=Y%DF=Y%T=40%W=
+OS:0%S=A%A=Z%F=R%O=%RD=0%Q=)T7(R=Y%DF=Y%T=40%W=0%S=Z%A=S+%F=AR%O=%RD=0%Q=)U
+OS:1(R=Y%DF=N%T=40%IPL=164%UN=0%RIPL=G%RID=G%RIPCK=G%RUCK=G%RUD=G)IE(R=Y%DF
+OS:I=N%T=40%CD=S)
+
+Uptime guess: 41.432 days (since Fri Nov  1 22:08:16 2024)
+Network Distance: 0 hops
+TCP Sequence Prediction: Difficulty=262 (Good luck!)
+IP ID Sequence Generation: All zeros
+
+NSE: Script Post-scanning.
+Initiating NSE at 07:30
+Completed NSE at 07:30, 0.00s elapsed
+Initiating NSE at 07:30
+Completed NSE at 07:30, 0.00s elapsed
+Initiating NSE at 07:30
+Completed NSE at 07:30, 0.00s elapsed
+Read data files from: /usr/share/nmap
+OS and Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+Nmap done: 1 IP address (1 host up) scanned in 18.53 seconds
+           Raw packets sent: 1110 (52.890KB) | Rcvd: 2211 (98.944KB)
+Performing traceroute to 192.168.1.67...
+Extracted MAC: Unknown MAC
+Extracted Hostname: Unknown Host
+Topology saved to /var/www/html/scans/update/network_scan_tool/results/Endpoint/20241213_072953/all_endpoint.php
+
+Error Code: 0
+
+
+Command: sudo /var/www/html/ShadowStrike/Scripts/endpoint_scan.sh 192.168.1.67 intense 
+Output:
+Selected Scan Type: intense
+Scanning 192.168.1.67 with the following command:
+sudo nmap -T4 -A -v -oA /var/www/html/ShadowStrike/results/Endpoint/20241213_073825/nmap_output_20241213_073825 192.168.1.67
+Starting Nmap 7.94SVN ( https://nmap.org ) at 2024-12-13 07:38 EST
+NSE: Loaded 156 scripts for scanning.
+NSE: Script Pre-scanning.
+Initiating NSE at 07:38
+Completed NSE at 07:38, 0.00s elapsed
+Initiating NSE at 07:38
+Completed NSE at 07:38, 0.00s elapsed
+Initiating NSE at 07:38
+Completed NSE at 07:38, 0.00s elapsed
+Initiating Parallel DNS resolution of 1 host. at 07:38
+Completed Parallel DNS resolution of 1 host. at 07:38, 0.01s elapsed
+Initiating SYN Stealth Scan at 07:38
+Scanning kali (192.168.1.67) [1000 ports]
+Discovered open port 80/tcp on 192.168.1.67
+Completed SYN Stealth Scan at 07:38, 0.03s elapsed (1000 total ports)
+Initiating Service scan at 07:38
+Scanning 1 service on kali (192.168.1.67)
+Completed Service scan at 07:38, 6.01s elapsed (1 service on 1 host)
+Initiating OS detection (try #1) against kali (192.168.1.67)
+Retrying OS detection (try #2) against kali (192.168.1.67)
+Retrying OS detection (try #3) against kali (192.168.1.67)
+Retrying OS detection (try #4) against kali (192.168.1.67)
+Retrying OS detection (try #5) against kali (192.168.1.67)
+NSE: Script scanning 192.168.1.67.
+Initiating NSE at 07:38
+Completed NSE at 07:38, 0.12s elapsed
+Initiating NSE at 07:38
+Completed NSE at 07:38, 0.01s elapsed
+Initiating NSE at 07:38
+Completed NSE at 07:38, 0.00s elapsed
+Nmap scan report for kali (192.168.1.67)
+Host is up (0.000038s latency).
+Not shown: 999 closed tcp ports (reset)
+PORT   STATE SERVICE VERSION
+80/tcp open  http    Apache httpd 2.4.62 ((Debian))
+| http-methods: 
+|_  Supported Methods: HEAD GET POST OPTIONS
+|_http-title: ARP Spoofing Tool
+|_http-server-header: Apache/2.4.62 (Debian)
+No exact OS matches for host (If you know what OS is running on it, see https://nmap.org/submit/ ).
+TCP/IP fingerprint:
+OS:SCAN(V=7.94SVN%E=4%D=12/13%OT=80%CT=1%CU=38978%PV=Y%DS=0%DC=L%G=Y%TM=675
+OS:C2AD3%P=x86_64-pc-linux-gnu)SEQ(SP=104%GCD=1%ISR=105%TI=Z%CI=Z%II=I%TS=A
+OS:)OPS(O1=MFFD7ST11NW7%O2=MFFD7ST11NW7%O3=MFFD7NNT11NW7%O4=MFFD7ST11NW7%O5
+OS:=MFFD7ST11NW7%O6=MFFD7ST11)WIN(W1=8200%W2=8200%W3=8200%W4=8200%W5=8200%W
+OS:6=8200)ECN(R=Y%DF=Y%T=40%W=8200%O=MFFD7NNSNW7%CC=Y%Q=)T1(R=Y%DF=Y%T=40%S
+OS:=O%A=S+%F=AS%RD=0%Q=)T2(R=N)T3(R=N)T4(R=Y%DF=Y%T=40%W=0%S=A%A=Z%F=R%O=%R
+OS:D=0%Q=)T5(R=Y%DF=Y%T=40%W=0%S=Z%A=S+%F=AR%O=%RD=0%Q=)T6(R=Y%DF=Y%T=40%W=
+OS:0%S=A%A=Z%F=R%O=%RD=0%Q=)T7(R=Y%DF=Y%T=40%W=0%S=Z%A=S+%F=AR%O=%RD=0%Q=)U
+OS:1(R=Y%DF=N%T=40%IPL=164%UN=0%RIPL=G%RID=G%RIPCK=G%RUCK=G%RUD=G)IE(R=Y%DF
+OS:I=N%T=40%CD=S)
+
+Uptime guess: 41.438 days (since Fri Nov  1 22:08:16 2024)
+Network Distance: 0 hops
+TCP Sequence Prediction: Difficulty=260 (Good luck!)
+IP ID Sequence Generation: All zeros
+
+NSE: Script Post-scanning.
+Initiating NSE at 07:38
+Completed NSE at 07:38, 0.00s elapsed
+Initiating NSE at 07:38
+Completed NSE at 07:38, 0.00s elapsed
+Initiating NSE at 07:38
+Completed NSE at 07:38, 0.00s elapsed
+Read data files from: /usr/share/nmap
+OS and Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+Nmap done: 1 IP address (1 host up) scanned in 17.89 seconds
+           Raw packets sent: 1110 (52.890KB) | Rcvd: 2211 (98.944KB)
+Performing traceroute to 192.168.1.67...
+Extracted MAC: Unknown MAC
+Extracted Hostname: Unknown Host
+Topology saved to /var/www/html/ShadowStrike/results/Endpoint/20241213_073825/all_endpoint.php
+
+Error Code: 0
+
+
+Command: sudo /var/www/html/ShadowStrike/Scripts/endpoint_scan.sh 192.168.1.67 intense 
+Output:
+Selected Scan Type: intense
+Scanning 192.168.1.67 with the following command:
+sudo nmap -T4 -A -v -oA /var/www/html/ShadowStrike/results/Endpoint/20241213_075207/nmap_output_20241213_075207 192.168.1.67
+Starting Nmap 7.94SVN ( https://nmap.org ) at 2024-12-13 07:52 EST
+NSE: Loaded 156 scripts for scanning.
+NSE: Script Pre-scanning.
+Initiating NSE at 07:52
+Completed NSE at 07:52, 0.00s elapsed
+Initiating NSE at 07:52
+Completed NSE at 07:52, 0.00s elapsed
+Initiating NSE at 07:52
+Completed NSE at 07:52, 0.00s elapsed
+Initiating Parallel DNS resolution of 1 host. at 07:52
+Completed Parallel DNS resolution of 1 host. at 07:52, 0.01s elapsed
+Initiating SYN Stealth Scan at 07:52
+Scanning kali (192.168.1.67) [1000 ports]
+Discovered open port 80/tcp on 192.168.1.67
+Completed SYN Stealth Scan at 07:52, 0.04s elapsed (1000 total ports)
+Initiating Service scan at 07:52
+Scanning 1 service on kali (192.168.1.67)
+Completed Service scan at 07:52, 6.02s elapsed (1 service on 1 host)
+Initiating OS detection (try #1) against kali (192.168.1.67)
+Retrying OS detection (try #2) against kali (192.168.1.67)
+Retrying OS detection (try #3) against kali (192.168.1.67)
+Retrying OS detection (try #4) against kali (192.168.1.67)
+Retrying OS detection (try #5) against kali (192.168.1.67)
+NSE: Script scanning 192.168.1.67.
+Initiating NSE at 07:52
+Completed NSE at 07:52, 0.08s elapsed
+Initiating NSE at 07:52
+Completed NSE at 07:52, 0.01s elapsed
+Initiating NSE at 07:52
+Completed NSE at 07:52, 0.00s elapsed
+Nmap scan report for kali (192.168.1.67)
+Host is up (0.000030s latency).
+Not shown: 999 closed tcp ports (reset)
+PORT   STATE SERVICE VERSION
+80/tcp open  http    Apache httpd 2.4.62 ((Debian))
+| http-methods: 
+|_  Supported Methods: HEAD GET POST OPTIONS
+|_http-title: ARP Spoofing Tool
+|_http-server-header: Apache/2.4.62 (Debian)
+No exact OS matches for host (If you know what OS is running on it, see https://nmap.org/submit/ ).
+TCP/IP fingerprint:
+OS:SCAN(V=7.94SVN%E=4%D=12/13%OT=80%CT=1%CU=36194%PV=Y%DS=0%DC=L%G=Y%TM=675
+OS:C2E09%P=x86_64-pc-linux-gnu)SEQ(SP=103%GCD=1%ISR=109%TI=Z%CI=Z%II=I%TS=A
+OS:)OPS(O1=MFFD7ST11NW7%O2=MFFD7ST11NW7%O3=MFFD7NNT11NW7%O4=MFFD7ST11NW7%O5
+OS:=MFFD7ST11NW7%O6=MFFD7ST11)WIN(W1=8200%W2=8200%W3=8200%W4=8200%W5=8200%W
+OS:6=8200)ECN(R=Y%DF=Y%T=40%W=8200%O=MFFD7NNSNW7%CC=Y%Q=)T1(R=Y%DF=Y%T=40%S
+OS:=O%A=S+%F=AS%RD=0%Q=)T2(R=N)T3(R=N)T4(R=Y%DF=Y%T=40%W=0%S=A%A=Z%F=R%O=%R
+OS:D=0%Q=)T5(R=Y%DF=Y%T=40%W=0%S=Z%A=S+%F=AR%O=%RD=0%Q=)T6(R=Y%DF=Y%T=40%W=
+OS:0%S=A%A=Z%F=R%O=%RD=0%Q=)T7(R=Y%DF=Y%T=40%W=0%S=Z%A=S+%F=AR%O=%RD=0%Q=)U
+OS:1(R=Y%DF=N%T=40%IPL=164%UN=0%RIPL=G%RID=G%RIPCK=G%RUCK=G%RUD=G)IE(R=Y%DF
+OS:I=N%T=40%CD=S)
+
+Uptime guess: 41.447 days (since Fri Nov  1 22:08:16 2024)
+Network Distance: 0 hops
+TCP Sequence Prediction: Difficulty=259 (Good luck!)
+IP ID Sequence Generation: All zeros
+
+NSE: Script Post-scanning.
+Initiating NSE at 07:52
+Completed NSE at 07:52, 0.00s elapsed
+Initiating NSE at 07:52
+Completed NSE at 07:52, 0.00s elapsed
+Initiating NSE at 07:52
+Completed NSE at 07:52, 0.00s elapsed
+Read data files from: /usr/share/nmap
+OS and Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+Nmap done: 1 IP address (1 host up) scanned in 17.75 seconds
+           Raw packets sent: 1110 (52.890KB) | Rcvd: 2211 (98.944KB)
+Performing traceroute to 192.168.1.67...
+Extracted MAC: Unknown MAC
+Extracted Hostname: Unknown Host
+Topology saved to /var/www/html/ShadowStrike/results/Endpoint/20241213_075207/all_endpoint.php
+
+Error Code: 0
+
+
+Command: sudo /var/www/html/ShadowStrike/Scripts/endpoint_scan.sh 192.168.1.67 intense 
+Output:
+Selected Scan Type: intense
+Scanning 192.168.1.67 with the following command:
+sudo nmap -T4 -A -v -oA /var/www/html/ShadowStrike/results/Endpoint/20241213_075932/nmap_output_20241213_075932 192.168.1.67
+Starting Nmap 7.94SVN ( https://nmap.org ) at 2024-12-13 07:59 EST
+NSE: Loaded 156 scripts for scanning.
+NSE: Script Pre-scanning.
+Initiating NSE at 07:59
+Completed NSE at 07:59, 0.00s elapsed
+Initiating NSE at 07:59
+Completed NSE at 07:59, 0.00s elapsed
+Initiating NSE at 07:59
+Completed NSE at 07:59, 0.00s elapsed
+Initiating Parallel DNS resolution of 1 host. at 07:59
+Completed Parallel DNS resolution of 1 host. at 07:59, 0.29s elapsed
+Initiating SYN Stealth Scan at 07:59
+Scanning kali (192.168.1.67) [1000 ports]
+Discovered open port 80/tcp on 192.168.1.67
+Completed SYN Stealth Scan at 07:59, 0.02s elapsed (1000 total ports)
+Initiating Service scan at 07:59
+Scanning 1 service on kali (192.168.1.67)
+Completed Service scan at 07:59, 6.01s elapsed (1 service on 1 host)
+Initiating OS detection (try #1) against kali (192.168.1.67)
+Retrying OS detection (try #2) against kali (192.168.1.67)
+Retrying OS detection (try #3) against kali (192.168.1.67)
+Retrying OS detection (try #4) against kali (192.168.1.67)
+Retrying OS detection (try #5) against kali (192.168.1.67)
+NSE: Script scanning 192.168.1.67.
+Initiating NSE at 07:59
+Completed NSE at 07:59, 0.08s elapsed
+Initiating NSE at 07:59
+Completed NSE at 07:59, 0.01s elapsed
+Initiating NSE at 07:59
+Completed NSE at 07:59, 0.00s elapsed
+Nmap scan report for kali (192.168.1.67)
+Host is up (0.000029s latency).
+Not shown: 999 closed tcp ports (reset)
+PORT   STATE SERVICE VERSION
+80/tcp open  http    Apache httpd 2.4.62 ((Debian))
+| http-methods: 
+|_  Supported Methods: HEAD GET POST OPTIONS
+|_http-title: ARP Spoofing Tool
+|_http-server-header: Apache/2.4.62 (Debian)
+No exact OS matches for host (If you know what OS is running on it, see https://nmap.org/submit/ ).
+TCP/IP fingerprint:
+OS:SCAN(V=7.94SVN%E=4%D=12/13%OT=80%CT=1%CU=30491%PV=Y%DS=0%DC=L%G=Y%TM=675
+OS:C2FC6%P=x86_64-pc-linux-gnu)SEQ(SP=105%GCD=1%ISR=106%TI=Z%CI=Z%II=I%TS=A
+OS:)OPS(O1=MFFD7ST11NW7%O2=MFFD7ST11NW7%O3=MFFD7NNT11NW7%O4=MFFD7ST11NW7%O5
+OS:=MFFD7ST11NW7%O6=MFFD7ST11)WIN(W1=8200%W2=8200%W3=8200%W4=8200%W5=8200%W
+OS:6=8200)ECN(R=Y%DF=Y%T=40%W=8200%O=MFFD7NNSNW7%CC=Y%Q=)T1(R=Y%DF=Y%T=40%S
+OS:=O%A=S+%F=AS%RD=0%Q=)T2(R=N)T3(R=N)T4(R=Y%DF=Y%T=40%W=0%S=A%A=Z%F=R%O=%R
+OS:D=0%Q=)T5(R=Y%DF=Y%T=40%W=0%S=Z%A=S+%F=AR%O=%RD=0%Q=)T6(R=Y%DF=Y%T=40%W=
+OS:0%S=A%A=Z%F=R%O=%RD=0%Q=)T7(R=Y%DF=Y%T=40%W=0%S=Z%A=S+%F=AR%O=%RD=0%Q=)U
+OS:1(R=Y%DF=N%T=40%IPL=164%UN=0%RIPL=G%RID=G%RIPCK=G%RUCK=G%RUD=G)IE(R=Y%DF
+OS:I=N%T=40%CD=S)
+
+Uptime guess: 41.452 days (since Fri Nov  1 22:08:16 2024)
+Network Distance: 0 hops
+TCP Sequence Prediction: Difficulty=261 (Good luck!)
+IP ID Sequence Generation: All zeros
+
+NSE: Script Post-scanning.
+Initiating NSE at 07:59
+Completed NSE at 07:59, 0.00s elapsed
+Initiating NSE at 07:59
+Completed NSE at 07:59, 0.00s elapsed
+Initiating NSE at 07:59
+Completed NSE at 07:59, 0.00s elapsed
+Read data files from: /usr/share/nmap
+OS and Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+Nmap done: 1 IP address (1 host up) scanned in 18.00 seconds
+           Raw packets sent: 1110 (52.890KB) | Rcvd: 2211 (98.944KB)
+Performing traceroute to 192.168.1.67...
+Extracted MAC: Unknown MAC
+Extracted Hostname: Unknown Host
+Topology saved to /var/www/html/ShadowStrike/results/Endpoint/20241213_075932/all_endpoint.php
+Processing /var/www/html/ShadowStrike/results/Endpoint/20241213_075932//all_endpoint.txt
+Sent /var/www/html/ShadowStrike/results/Endpoint/20241213_075932//report.pdf to Telegram successfully.
+Sent /var/www/html/ShadowStrike/results/Endpoint/20241213_075932//attack_commands.pdf to Telegram successfully.
+Sent /var/www/html/ShadowStrike/results/Endpoint/20241213_075932//solutions.pdf to Telegram successfully.
+All reports processed and sent to Telegram.
+
+Error Code: 0
+
+
+Command: sudo /var/www/html/ShadowStrike/Scripts/all_network_scan.sh intense
+Output:
+Executing command: nmap -sS -sV -O 192.168.1.0/24
+Saving scan results to the database...
+Scan results successfully saved to the database.
+
+Error Code: 0
+
+
+Command: sudo /var/www/html/ShadowStrike/Scripts/all_network_scan.sh intense
+Output:
+Executing command: nmap -sS -sV -O 192.168.1.0/24
+Saving scan results to the database...
+Scan results successfully saved to the database.
+
+Error Code: 0
+
+
+Command: sudo /var/www/html/ShadowStrike/Scripts/endpoint_scan.sh 192.168.1.67 intense 
+Output:
+Selected Scan Type: intense
+Scanning 192.168.1.67 with the following command:
+sudo nmap -T4 -A -v -oA /var/www/html/ShadowStrike/results/Endpoint/20241213_160321/nmap_output_20241213_160321 192.168.1.67
+Starting Nmap 7.94SVN ( https://nmap.org ) at 2024-12-13 16:03 EST
+NSE: Loaded 156 scripts for scanning.
+NSE: Script Pre-scanning.
+Initiating NSE at 16:03
+Completed NSE at 16:03, 0.00s elapsed
+Initiating NSE at 16:03
+Completed NSE at 16:03, 0.00s elapsed
+Initiating NSE at 16:03
+Completed NSE at 16:03, 0.00s elapsed
+Initiating Parallel DNS resolution of 1 host. at 16:03
+Completed Parallel DNS resolution of 1 host. at 16:03, 0.01s elapsed
+Initiating SYN Stealth Scan at 16:03
+Scanning kali (192.168.1.67) [1000 ports]
+Discovered open port 80/tcp on 192.168.1.67
+Completed SYN Stealth Scan at 16:03, 0.02s elapsed (1000 total ports)
+Initiating Service scan at 16:03
+Scanning 1 service on kali (192.168.1.67)
+Completed Service scan at 16:03, 6.04s elapsed (1 service on 1 host)
+Initiating OS detection (try #1) against kali (192.168.1.67)
+Retrying OS detection (try #2) against kali (192.168.1.67)
+Retrying OS detection (try #3) against kali (192.168.1.67)
+Retrying OS detection (try #4) against kali (192.168.1.67)
+Retrying OS detection (try #5) against kali (192.168.1.67)
+NSE: Script scanning 192.168.1.67.
+Initiating NSE at 16:03
+Completed NSE at 16:03, 0.08s elapsed
+Initiating NSE at 16:03
+Completed NSE at 16:03, 0.01s elapsed
+Initiating NSE at 16:03
+Completed NSE at 16:03, 0.00s elapsed
+Nmap scan report for kali (192.168.1.67)
+Host is up (0.000033s latency).
+Not shown: 999 closed tcp ports (reset)
+PORT   STATE SERVICE VERSION
+80/tcp open  http    Apache httpd 2.4.62 ((Debian))
+| http-methods: 
+|_  Supported Methods: GET POST OPTIONS HEAD
+|_http-title: ARP Spoofing Tool
+|_http-server-header: Apache/2.4.62 (Debian)
+No exact OS matches for host (If you know what OS is running on it, see https://nmap.org/submit/ ).
+TCP/IP fingerprint:
+OS:SCAN(V=7.94SVN%E=4%D=12/13%OT=80%CT=1%CU=34432%PV=Y%DS=0%DC=L%G=Y%TM=675
+OS:CA12C%P=x86_64-pc-linux-gnu)SEQ(SP=104%GCD=1%ISR=10A%TI=Z%CI=Z%II=I%TS=A
+OS:)SEQ(SP=106%GCD=1%ISR=10A%TI=Z%CI=Z%II=I%TS=A)SEQ(SP=106%GCD=1%ISR=10B%T
+OS:I=Z%CI=Z%II=I%TS=A)SEQ(SP=106%GCD=2%ISR=10B%TI=Z%CI=Z%II=I%TS=A)OPS(O1=M
+OS:FFD7ST11NW7%O2=MFFD7ST11NW7%O3=MFFD7NNT11NW7%O4=MFFD7ST11NW7%O5=MFFD7ST1
+OS:1NW7%O6=MFFD7ST11)WIN(W1=8200%W2=8200%W3=8200%W4=8200%W5=8200%W6=8200)EC
+OS:N(R=Y%DF=Y%T=40%W=8200%O=MFFD7NNSNW7%CC=Y%Q=)T1(R=Y%DF=Y%T=40%S=O%A=S+%F
+OS:=AS%RD=0%Q=)T2(R=N)T3(R=N)T4(R=Y%DF=Y%T=40%W=0%S=A%A=Z%F=R%O=%RD=0%Q=)T5
+OS:(R=Y%DF=Y%T=40%W=0%S=Z%A=S+%F=AR%O=%RD=0%Q=)T6(R=Y%DF=Y%T=40%W=0%S=A%A=Z
+OS:%F=R%O=%RD=0%Q=)T7(R=Y%DF=Y%T=40%W=0%S=Z%A=S+%F=AR%O=%RD=0%Q=)U1(R=Y%DF=
+OS:N%T=40%IPL=164%UN=0%RIPL=G%RID=G%RIPCK=G%RUCK=G%RUD=G)IE(R=Y%DFI=N%T=40%
+OS:CD=S)
+
+Uptime guess: 4.591 days (since Mon Dec  9 01:52:11 2024)
+Network Distance: 0 hops
+TCP Sequence Prediction: Difficulty=262 (Good luck!)
+IP ID Sequence Generation: All zeros
+
+NSE: Script Post-scanning.
+Initiating NSE at 16:03
+Completed NSE at 16:03, 0.00s elapsed
+Initiating NSE at 16:03
+Completed NSE at 16:03, 0.00s elapsed
+Initiating NSE at 16:03
+Completed NSE at 16:03, 0.00s elapsed
+Read data files from: /usr/share/nmap
+OS and Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+Nmap done: 1 IP address (1 host up) scanned in 19.38 seconds
+           Raw packets sent: 1110 (52.890KB) | Rcvd: 2211 (98.944KB)
+Performing traceroute to 192.168.1.67...
+Extracted MAC: Unknown MAC
+Extracted Hostname: Unknown Host
+Topology saved to /var/www/html/ShadowStrike/results/Endpoint/20241213_160321/all_endpoint.php
+Processing /var/www/html/ShadowStrike/results/Endpoint/20241213_160321//all_endpoint.txt
+Sent /var/www/html/ShadowStrike/results/Endpoint/20241213_160321//report.pdf to Telegram successfully.
+Sent /var/www/html/ShadowStrike/results/Endpoint/20241213_160321//attack_commands.pdf to Telegram successfully.
+Sent /var/www/html/ShadowStrike/results/Endpoint/20241213_160321//solutions.pdf to Telegram successfully.
+All reports processed and sent to Telegram.
+
+Error Code: 0
+
+
+Command: sudo /var/www/html/ShadowStrike/Scripts/all_network_scan.sh intense
+Output:
+Executing command: nmap -sS -sV -O 192.168.1.0/24
+Saving scan results to the database...
+Scan results successfully saved to the database.
+
+Error Code: 0
+
+
+Command: sudo /var/www/html/ShadowStrike/Scripts/all_network_scan.sh intense
+Output:
+Executing command: nmap -sS -sV -O 192.168.1.0/24
+Saving scan results to the database...
+Scan results successfully saved to the database.
+
+Error Code: 0
+
+
+Command: sudo /var/www/html/ShadowStrike/Scripts/all_network_scan.sh intense
+Output:
+Executing command: nmap -sS -sV -O 192.168.1.0/24
+Saving scan results to the database...
+Scan results successfully saved to the database.
+
+Error Code: 0
+
+
+Command: sudo /var/www/html/ShadowStrike/Scripts/endpoint_scan.sh 192.168.1.67 intense 
+Output:
+Selected Scan Type: intense
+Scanning 192.168.1.67 with the following command:
+sudo nmap -T4 -A -v -oA /var/www/html/ShadowStrike/results/Endpoint/20241217_165413/nmap_output_20241217_165413 192.168.1.67
+Starting Nmap 7.94SVN ( https://nmap.org ) at 2024-12-17 16:54 EST
+NSE: Loaded 156 scripts for scanning.
+NSE: Script Pre-scanning.
+Initiating NSE at 16:54
+Completed NSE at 16:54, 0.00s elapsed
+Initiating NSE at 16:54
+Completed NSE at 16:54, 0.00s elapsed
+Initiating NSE at 16:54
+Completed NSE at 16:54, 0.00s elapsed
+Initiating Parallel DNS resolution of 1 host. at 16:54
+Completed Parallel DNS resolution of 1 host. at 16:54, 0.01s elapsed
+Initiating SYN Stealth Scan at 16:54
+Scanning kali (192.168.1.67) [1000 ports]
+Discovered open port 80/tcp on 192.168.1.67
+Completed SYN Stealth Scan at 16:54, 0.02s elapsed (1000 total ports)
+Initiating Service scan at 16:54
+Scanning 1 service on kali (192.168.1.67)
+Completed Service scan at 16:54, 6.02s elapsed (1 service on 1 host)
+Initiating OS detection (try #1) against kali (192.168.1.67)
+Retrying OS detection (try #2) against kali (192.168.1.67)
+Retrying OS detection (try #3) against kali (192.168.1.67)
+Retrying OS detection (try #4) against kali (192.168.1.67)
+Retrying OS detection (try #5) against kali (192.168.1.67)
+NSE: Script scanning 192.168.1.67.
+Initiating NSE at 16:54
+Completed NSE at 16:54, 0.11s elapsed
+Initiating NSE at 16:54
+Completed NSE at 16:54, 0.01s elapsed
+Initiating NSE at 16:54
+Completed NSE at 16:54, 0.00s elapsed
+Nmap scan report for kali (192.168.1.67)
+Host is up (0.000035s latency).
+Not shown: 999 closed tcp ports (reset)
+PORT   STATE SERVICE VERSION
+80/tcp open  http    Apache httpd 2.4.62 ((Debian))
+| http-methods: 
+|_  Supported Methods: GET POST OPTIONS HEAD
+|_http-server-header: Apache/2.4.62 (Debian)
+|_http-title: ARP Spoofing Tool
+No exact OS matches for host (If you know what OS is running on it, see https://nmap.org/submit/ ).
+TCP/IP fingerprint:
+OS:SCAN(V=7.94SVN%E=4%D=12/17%OT=80%CT=1%CU=38868%PV=Y%DS=0%DC=L%G=Y%TM=676
+OS:1F317%P=x86_64-pc-linux-gnu)SEQ(SP=105%GCD=1%ISR=10C%TI=Z%CI=Z%II=I%TS=A
+OS:)SEQ(SP=106%GCD=1%ISR=10C%TI=Z%CI=Z%II=I%TS=A)SEQ(SP=106%GCD=1%ISR=10D%T
+OS:I=Z%CI=Z%II=I%TS=A)OPS(O1=MFFD7ST11NW7%O2=MFFD7ST11NW7%O3=MFFD7NNT11NW7%
+OS:O4=MFFD7ST11NW7%O5=MFFD7ST11NW7%O6=MFFD7ST11)WIN(W1=8200%W2=8200%W3=8200
+OS:%W4=8200%W5=8200%W6=8200)ECN(R=Y%DF=Y%T=40%W=8200%O=MFFD7NNSNW7%CC=Y%Q=)
+OS:T1(R=Y%DF=Y%T=40%S=O%A=S+%F=AS%RD=0%Q=)T2(R=N)T3(R=N)T4(R=Y%DF=Y%T=40%W=
+OS:0%S=A%A=Z%F=R%O=%RD=0%Q=)T5(R=Y%DF=Y%T=40%W=0%S=Z%A=S+%F=AR%O=%RD=0%Q=)T
+OS:6(R=Y%DF=Y%T=40%W=0%S=A%A=Z%F=R%O=%RD=0%Q=)T7(R=Y%DF=Y%T=40%W=0%S=Z%A=S+
+OS:%F=AR%O=%RD=0%Q=)U1(R=Y%DF=N%T=40%IPL=164%UN=0%RIPL=G%RID=G%RIPCK=G%RUCK
+OS:=G%RUD=G)IE(R=Y%DFI=N%T=40%CD=S)
+
+Uptime guess: 5.451 days (since Thu Dec 12 06:05:38 2024)
+Network Distance: 0 hops
+TCP Sequence Prediction: Difficulty=262 (Good luck!)
+IP ID Sequence Generation: All zeros
+
+NSE: Script Post-scanning.
+Initiating NSE at 16:54
+Completed NSE at 16:54, 0.00s elapsed
+Initiating NSE at 16:54
+Completed NSE at 16:54, 0.00s elapsed
+Initiating NSE at 16:54
+Completed NSE at 16:54, 0.00s elapsed
+Read data files from: /usr/share/nmap
+OS and Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+Nmap done: 1 IP address (1 host up) scanned in 17.99 seconds
+           Raw packets sent: 1110 (52.890KB) | Rcvd: 2211 (98.944KB)
+Performing traceroute to 192.168.1.67...
+Extracted MAC: Unknown MAC
+Extracted Hostname: Unknown Host
+Topology saved to /var/www/html/ShadowStrike/results/Endpoint/20241217_165413/all_endpoint.php
+Processing /var/www/html/ShadowStrike/results/Endpoint/20241217_165413//all_endpoint.txt
+Sent /var/www/html/ShadowStrike/results/Endpoint/20241217_165413//report.pdf to Telegram successfully.
+Sent /var/www/html/ShadowStrike/results/Endpoint/20241217_165413//attack_commands.pdf to Telegram successfully.
+Sent /var/www/html/ShadowStrike/results/Endpoint/20241217_165413//solutions.pdf to Telegram successfully.
+All reports processed and sent to Telegram.
+
+Error Code: 0
+
+
+Command: sudo /var/www/html/ShadowStrike/Scripts/endpoint_scan.sh 192.168.1.67 intense 
+Output:
+Selected Scan Type: intense
+Scanning 192.168.1.67 with the following command:
+sudo nmap -T4 -A -v -oA /var/www/html/ShadowStrike/results/Endpoint/20241217_170018/nmap_output_20241217_170018 192.168.1.67
+Starting Nmap 7.94SVN ( https://nmap.org ) at 2024-12-17 17:00 EST
+NSE: Loaded 156 scripts for scanning.
+NSE: Script Pre-scanning.
+Initiating NSE at 17:00
+Completed NSE at 17:00, 0.00s elapsed
+Initiating NSE at 17:00
+Completed NSE at 17:00, 0.00s elapsed
+Initiating NSE at 17:00
+Completed NSE at 17:00, 0.00s elapsed
+Initiating Parallel DNS resolution of 1 host. at 17:00
+Completed Parallel DNS resolution of 1 host. at 17:00, 0.08s elapsed
+Initiating SYN Stealth Scan at 17:00
+Scanning kali (192.168.1.67) [1000 ports]
+Discovered open port 80/tcp on 192.168.1.67
+Completed SYN Stealth Scan at 17:00, 0.03s elapsed (1000 total ports)
+Initiating Service scan at 17:00
+Scanning 1 service on kali (192.168.1.67)
+Completed Service scan at 17:00, 6.03s elapsed (1 service on 1 host)
+Initiating OS detection (try #1) against kali (192.168.1.67)
+Retrying OS detection (try #2) against kali (192.168.1.67)
+Retrying OS detection (try #3) against kali (192.168.1.67)
+Retrying OS detection (try #4) against kali (192.168.1.67)
+Retrying OS detection (try #5) against kali (192.168.1.67)
+NSE: Script scanning 192.168.1.67.
+Initiating NSE at 17:00
+Completed NSE at 17:00, 0.10s elapsed
+Initiating NSE at 17:00
+Completed NSE at 17:00, 0.01s elapsed
+Initiating NSE at 17:00
+Completed NSE at 17:00, 0.00s elapsed
+Nmap scan report for kali (192.168.1.67)
+Host is up (0.000040s latency).
+Not shown: 999 closed tcp ports (reset)
+PORT   STATE SERVICE VERSION
+80/tcp open  http    Apache httpd 2.4.62 ((Debian))
+|_http-title: ARP Spoofing Tool
+|_http-server-header: Apache/2.4.62 (Debian)
+| http-methods: 
+|_  Supported Methods: GET POST OPTIONS HEAD
+No exact OS matches for host (If you know what OS is running on it, see https://nmap.org/submit/ ).
+TCP/IP fingerprint:
+OS:SCAN(V=7.94SVN%E=4%D=12/17%OT=80%CT=1%CU=37980%PV=Y%DS=0%DC=L%G=Y%TM=676
+OS:1F484%P=x86_64-pc-linux-gnu)SEQ(SP=103%GCD=1%ISR=10F%TI=Z%CI=Z%II=I%TS=A
+OS:)OPS(O1=MFFD7ST11NW7%O2=MFFD7ST11NW7%O3=MFFD7NNT11NW7%O4=MFFD7ST11NW7%O5
+OS:=MFFD7ST11NW7%O6=MFFD7ST11)WIN(W1=8200%W2=8200%W3=8200%W4=8200%W5=8200%W
+OS:6=8200)ECN(R=Y%DF=Y%T=40%W=8200%O=MFFD7NNSNW7%CC=Y%Q=)T1(R=Y%DF=Y%T=40%S
+OS:=O%A=S+%F=AS%RD=0%Q=)T2(R=N)T3(R=N)T4(R=Y%DF=Y%T=40%W=0%S=A%A=Z%F=R%O=%R
+OS:D=0%Q=)T5(R=Y%DF=Y%T=40%W=0%S=Z%A=S+%F=AR%O=%RD=0%Q=)T6(R=Y%DF=Y%T=40%W=
+OS:0%S=A%A=Z%F=R%O=%RD=0%Q=)T7(R=Y%DF=Y%T=40%W=0%S=Z%A=S+%F=AR%O=%RD=0%Q=)U
+OS:1(R=Y%DF=N%T=40%IPL=164%UN=0%RIPL=G%RID=G%RIPCK=G%RUCK=G%RUD=G)IE(R=Y%DF
+OS:I=N%T=40%CD=S)
+
+Uptime guess: 5.455 days (since Thu Dec 12 06:05:38 2024)
+Network Distance: 0 hops
+TCP Sequence Prediction: Difficulty=259 (Good luck!)
+IP ID Sequence Generation: All zeros
+
+NSE: Script Post-scanning.
+Initiating NSE at 17:00
+Completed NSE at 17:00, 0.00s elapsed
+Initiating NSE at 17:00
+Completed NSE at 17:00, 0.00s elapsed
+Initiating NSE at 17:00
+Completed NSE at 17:00, 0.00s elapsed
+Read data files from: /usr/share/nmap
+OS and Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+Nmap done: 1 IP address (1 host up) scanned in 18.01 seconds
+           Raw packets sent: 1110 (52.890KB) | Rcvd: 2211 (98.944KB)
+Performing traceroute to 192.168.1.67...
+Extracted MAC: Unknown MAC
+Extracted Hostname: Unknown Host
+Topology saved to /var/www/html/ShadowStrike/results/Endpoint/20241217_170018/all_endpoint.php
+Processing /var/www/html/ShadowStrike/results/Endpoint/20241217_170018//all_endpoint.txt
+Sent /var/www/html/ShadowStrike/results/Endpoint/20241217_170018//report.pdf to Telegram successfully.
+Sent /var/www/html/ShadowStrike/results/Endpoint/20241217_170018//attack_commands.pdf to Telegram successfully.
+Sent /var/www/html/ShadowStrike/results/Endpoint/20241217_170018//solutions.pdf to Telegram successfully.
+All reports processed and sent to Telegram.
+
+Error Code: 0
+
+
+Command: sudo /var/www/html/ShadowStrike/Scripts/endpoint_scan.sh 192.168.1.67 intense 
+Output:
+Selected Scan Type: intense
+Scanning 192.168.1.67 with the following command:
+sudo nmap -T4 -A -v -oA /var/www/html/ShadowStrike/results/Endpoint/20241217_170318/nmap_output_20241217_170318 192.168.1.67
+Starting Nmap 7.94SVN ( https://nmap.org ) at 2024-12-17 17:03 EST
+NSE: Loaded 156 scripts for scanning.
+NSE: Script Pre-scanning.
+Initiating NSE at 17:03
+Completed NSE at 17:03, 0.00s elapsed
+Initiating NSE at 17:03
+Completed NSE at 17:03, 0.00s elapsed
+Initiating NSE at 17:03
+Completed NSE at 17:03, 0.00s elapsed
+Initiating Parallel DNS resolution of 1 host. at 17:03
+Completed Parallel DNS resolution of 1 host. at 17:03, 0.01s elapsed
+Initiating SYN Stealth Scan at 17:03
+Scanning kali (192.168.1.67) [1000 ports]
+Discovered open port 80/tcp on 192.168.1.67
+Completed SYN Stealth Scan at 17:03, 0.04s elapsed (1000 total ports)
+Initiating Service scan at 17:03
+Scanning 1 service on kali (192.168.1.67)
+Completed Service scan at 17:03, 6.02s elapsed (1 service on 1 host)
+Initiating OS detection (try #1) against kali (192.168.1.67)
+Retrying OS detection (try #2) against kali (192.168.1.67)
+Retrying OS detection (try #3) against kali (192.168.1.67)
+Retrying OS detection (try #4) against kali (192.168.1.67)
+Retrying OS detection (try #5) against kali (192.168.1.67)
+NSE: Script scanning 192.168.1.67.
+Initiating NSE at 17:03
+Completed NSE at 17:03, 0.10s elapsed
+Initiating NSE at 17:03
+Completed NSE at 17:03, 0.01s elapsed
+Initiating NSE at 17:03
+Completed NSE at 17:03, 0.00s elapsed
+Nmap scan report for kali (192.168.1.67)
+Host is up (0.000032s latency).
+Not shown: 999 closed tcp ports (reset)
+PORT   STATE SERVICE VERSION
+80/tcp open  http    Apache httpd 2.4.62 ((Debian))
+|_http-server-header: Apache/2.4.62 (Debian)
+|_http-title: ARP Spoofing Tool
+| http-methods: 
+|_  Supported Methods: GET POST OPTIONS HEAD
+No exact OS matches for host (If you know what OS is running on it, see https://nmap.org/submit/ ).
+TCP/IP fingerprint:
+OS:SCAN(V=7.94SVN%E=4%D=12/17%OT=80%CT=1%CU=43495%PV=Y%DS=0%DC=L%G=Y%TM=676
+OS:1F538%P=x86_64-pc-linux-gnu)SEQ(SP=102%GCD=1%ISR=10D%TI=Z%CI=Z%II=I%TS=A
+OS:)OPS(O1=MFFD7ST11NW7%O2=MFFD7ST11NW7%O3=MFFD7NNT11NW7%O4=MFFD7ST11NW7%O5
+OS:=MFFD7ST11NW7%O6=MFFD7ST11)WIN(W1=8200%W2=8200%W3=8200%W4=8200%W5=8200%W
+OS:6=8200)ECN(R=Y%DF=Y%T=40%W=8200%O=MFFD7NNSNW7%CC=Y%Q=)T1(R=Y%DF=Y%T=40%S
+OS:=O%A=S+%F=AS%RD=0%Q=)T2(R=N)T3(R=N)T4(R=Y%DF=Y%T=40%W=0%S=A%A=Z%F=R%O=%R
+OS:D=0%Q=)T5(R=Y%DF=Y%T=40%W=0%S=Z%A=S+%F=AR%O=%RD=0%Q=)T6(R=Y%DF=Y%T=40%W=
+OS:0%S=A%A=Z%F=R%O=%RD=0%Q=)T7(R=Y%DF=Y%T=40%W=0%S=Z%A=S+%F=AR%O=%RD=0%Q=)U
+OS:1(R=Y%DF=N%T=40%IPL=164%UN=0%RIPL=G%RID=G%RIPCK=G%RUCK=G%RUD=G)IE(R=Y%DF
+OS:I=N%T=40%CD=S)
+
+Uptime guess: 5.457 days (since Thu Dec 12 06:05:38 2024)
+Network Distance: 0 hops
+TCP Sequence Prediction: Difficulty=258 (Good luck!)
+IP ID Sequence Generation: All zeros
+
+NSE: Script Post-scanning.
+Initiating NSE at 17:03
+Completed NSE at 17:03, 0.00s elapsed
+Initiating NSE at 17:03
+Completed NSE at 17:03, 0.00s elapsed
+Initiating NSE at 17:03
+Completed NSE at 17:03, 0.00s elapsed
+Read data files from: /usr/share/nmap
+OS and Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+Nmap done: 1 IP address (1 host up) scanned in 18.14 seconds
+           Raw packets sent: 1110 (52.890KB) | Rcvd: 2211 (98.944KB)
+Performing traceroute to 192.168.1.67...
+Extracted MAC: Unknown MAC
+Extracted Hostname: Unknown Host
+Topology saved to /var/www/html/ShadowStrike/results/Endpoint/20241217_170318/all_endpoint.php
+Processing /var/www/html/ShadowStrike/results/Endpoint/20241217_170318//all_endpoint.txt
+Sent /var/www/html/ShadowStrike/results/Endpoint/20241217_170318//report.pdf to Telegram successfully.
+Sent /var/www/html/ShadowStrike/results/Endpoint/20241217_170318//attack_commands.pdf to Telegram successfully.
+Sent /var/www/html/ShadowStrike/results/Endpoint/20241217_170318//solutions.pdf to Telegram successfully.
+All reports processed and sent to Telegram.
+
+Error Code: 0
+
+
+Command: sudo /var/www/html/ShadowStrike/Scripts/endpoint_scan.sh 192.168.1.67 intense 
+Output:
+Selected Scan Type: intense
+Scanning 192.168.1.67 with the following command:
+sudo nmap -T4 -A -v -oA /var/www/html/ShadowStrike/results/Endpoint/20241217_171010/nmap_output_20241217_171010 192.168.1.67
+Starting Nmap 7.94SVN ( https://nmap.org ) at 2024-12-17 17:10 EST
+NSE: Loaded 156 scripts for scanning.
+NSE: Script Pre-scanning.
+Initiating NSE at 17:10
+Completed NSE at 17:10, 0.00s elapsed
+Initiating NSE at 17:10
+Completed NSE at 17:10, 0.00s elapsed
+Initiating NSE at 17:10
+Completed NSE at 17:10, 0.00s elapsed
+Initiating Parallel DNS resolution of 1 host. at 17:10
+Completed Parallel DNS resolution of 1 host. at 17:10, 0.01s elapsed
+Initiating SYN Stealth Scan at 17:10
+Scanning kali (192.168.1.67) [1000 ports]
+Discovered open port 80/tcp on 192.168.1.67
+Completed SYN Stealth Scan at 17:10, 0.03s elapsed (1000 total ports)
+Initiating Service scan at 17:10
+Scanning 1 service on kali (192.168.1.67)
+Completed Service scan at 17:10, 6.02s elapsed (1 service on 1 host)
+Initiating OS detection (try #1) against kali (192.168.1.67)
+Retrying OS detection (try #2) against kali (192.168.1.67)
+Retrying OS detection (try #3) against kali (192.168.1.67)
+Retrying OS detection (try #4) against kali (192.168.1.67)
+Retrying OS detection (try #5) against kali (192.168.1.67)
+NSE: Script scanning 192.168.1.67.
+Initiating NSE at 17:10
+Completed NSE at 17:10, 0.10s elapsed
+Initiating NSE at 17:10
+Completed NSE at 17:10, 0.01s elapsed
+Initiating NSE at 17:10
+Completed NSE at 17:10, 0.00s elapsed
+Nmap scan report for kali (192.168.1.67)
+Host is up (0.000035s latency).
+Not shown: 999 closed tcp ports (reset)
+PORT   STATE SERVICE VERSION
+80/tcp open  http    Apache httpd 2.4.62 ((Debian))
+|_http-title: ARP Spoofing Tool
+| http-methods: 
+|_  Supported Methods: GET POST OPTIONS HEAD
+|_http-server-header: Apache/2.4.62 (Debian)
+No exact OS matches for host (If you know what OS is running on it, see https://nmap.org/submit/ ).
+TCP/IP fingerprint:
+OS:SCAN(V=7.94SVN%E=4%D=12/17%OT=80%CT=1%CU=36811%PV=Y%DS=0%DC=L%G=Y%TM=676
+OS:1F6D4%P=x86_64-pc-linux-gnu)SEQ(SP=102%GCD=1%ISR=109%TI=Z%CI=Z%II=I%TS=A
+OS:)OPS(O1=MFFD7ST11NW7%O2=MFFD7ST11NW7%O3=MFFD7NNT11NW7%O4=MFFD7ST11NW7%O5
+OS:=MFFD7ST11NW7%O6=MFFD7ST11)WIN(W1=8200%W2=8200%W3=8200%W4=8200%W5=8200%W
+OS:6=8200)ECN(R=Y%DF=Y%T=40%W=8200%O=MFFD7NNSNW7%CC=Y%Q=)T1(R=Y%DF=Y%T=40%S
+OS:=O%A=S+%F=AS%RD=0%Q=)T2(R=N)T3(R=N)T4(R=Y%DF=Y%T=40%W=0%S=A%A=Z%F=R%O=%R
+OS:D=0%Q=)T5(R=Y%DF=Y%T=40%W=0%S=Z%A=S+%F=AR%O=%RD=0%Q=)T6(R=Y%DF=Y%T=40%W=
+OS:0%S=A%A=Z%F=R%O=%RD=0%Q=)T7(R=Y%DF=Y%T=40%W=0%S=Z%A=S+%F=AR%O=%RD=0%Q=)U
+OS:1(R=Y%DF=N%T=40%IPL=164%UN=0%RIPL=G%RID=G%RIPCK=G%RUCK=G%RUD=G)IE(R=Y%DF
+OS:I=N%T=40%CD=S)
+
+Uptime guess: 5.462 days (since Thu Dec 12 06:05:38 2024)
+Network Distance: 0 hops
+TCP Sequence Prediction: Difficulty=258 (Good luck!)
+IP ID Sequence Generation: All zeros
+
+NSE: Script Post-scanning.
+Initiating NSE at 17:10
+Completed NSE at 17:10, 0.00s elapsed
+Initiating NSE at 17:10
+Completed NSE at 17:10, 0.00s elapsed
+Initiating NSE at 17:10
+Completed NSE at 17:10, 0.00s elapsed
+Read data files from: /usr/share/nmap
+OS and Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+Nmap done: 1 IP address (1 host up) scanned in 18.04 seconds
+           Raw packets sent: 1110 (52.890KB) | Rcvd: 2211 (98.944KB)
+Performing traceroute to 192.168.1.67...
+Extracted MAC: Unknown MAC
+Extracted Hostname: Unknown Host
+Topology saved to /var/www/html/ShadowStrike/results/Endpoint/20241217_171010/all_endpoint.php
+Processing /var/www/html/ShadowStrike/results/Endpoint/20241217_171010//all_endpoint.txt
+Sent /var/www/html/ShadowStrike/results/Endpoint/20241217_171010//report.pdf to Telegram successfully.
+Sent /var/www/html/ShadowStrike/results/Endpoint/20241217_171010//attack_commands.pdf to Telegram successfully.
+Sent /var/www/html/ShadowStrike/results/Endpoint/20241217_171010//solutions.pdf to Telegram successfully.
+All reports processed and sent to Telegram.
+
+Error Code: 0
+
+
+Command: sudo /var/www/html/ShadowStrike/Scripts/endpoint_scan.sh 192.168.1.67 intense 
+Output:
+Selected Scan Type: intense
+Scanning 192.168.1.67 with the following command:
+sudo nmap -T4 -A -v -oA /var/www/html/ShadowStrike/results/Endpoint/20241217_171419/nmap_output_20241217_171419 192.168.1.67
+Starting Nmap 7.94SVN ( https://nmap.org ) at 2024-12-17 17:14 EST
+NSE: Loaded 156 scripts for scanning.
+NSE: Script Pre-scanning.
+Initiating NSE at 17:14
+Completed NSE at 17:14, 0.00s elapsed
+Initiating NSE at 17:14
+Completed NSE at 17:14, 0.00s elapsed
+Initiating NSE at 17:14
+Completed NSE at 17:14, 0.00s elapsed
+Initiating Parallel DNS resolution of 1 host. at 17:14
+Completed Parallel DNS resolution of 1 host. at 17:14, 0.01s elapsed
+Initiating SYN Stealth Scan at 17:14
+Scanning kali (192.168.1.67) [1000 ports]
+Discovered open port 80/tcp on 192.168.1.67
+Completed SYN Stealth Scan at 17:14, 0.04s elapsed (1000 total ports)
+Initiating Service scan at 17:14
+Scanning 1 service on kali (192.168.1.67)
+Completed Service scan at 17:14, 6.03s elapsed (1 service on 1 host)
+Initiating OS detection (try #1) against kali (192.168.1.67)
+Retrying OS detection (try #2) against kali (192.168.1.67)
+Retrying OS detection (try #3) against kali (192.168.1.67)
+Retrying OS detection (try #4) against kali (192.168.1.67)
+Retrying OS detection (try #5) against kali (192.168.1.67)
+NSE: Script scanning 192.168.1.67.
+Initiating NSE at 17:14
+Completed NSE at 17:14, 0.12s elapsed
+Initiating NSE at 17:14
+Completed NSE at 17:14, 0.02s elapsed
+Initiating NSE at 17:14
+Completed NSE at 17:14, 0.00s elapsed
+Nmap scan report for kali (192.168.1.67)
+Host is up (0.000033s latency).
+Not shown: 999 closed tcp ports (reset)
+PORT   STATE SERVICE VERSION
+80/tcp open  http    Apache httpd 2.4.62 ((Debian))
+| http-methods: 
+|_  Supported Methods: GET POST OPTIONS HEAD
+|_http-title: ARP Spoofing Tool
+|_http-server-header: Apache/2.4.62 (Debian)
+No exact OS matches for host (If you know what OS is running on it, see https://nmap.org/submit/ ).
+TCP/IP fingerprint:
+OS:SCAN(V=7.94SVN%E=4%D=12/17%OT=80%CT=1%CU=35747%PV=Y%DS=0%DC=L%G=Y%TM=676
+OS:1F7CE%P=x86_64-pc-linux-gnu)SEQ(SP=105%GCD=1%ISR=107%TI=Z%CI=Z%II=I%TS=A
+OS:)SEQ(SP=105%GCD=1%ISR=108%TI=Z%CI=Z%II=I%TS=A)OPS(O1=MFFD7ST11NW7%O2=MFF
+OS:D7ST11NW7%O3=MFFD7NNT11NW7%O4=MFFD7ST11NW7%O5=MFFD7ST11NW7%O6=MFFD7ST11)
+OS:WIN(W1=8200%W2=8200%W3=8200%W4=8200%W5=8200%W6=8200)ECN(R=Y%DF=Y%T=40%W=
+OS:8200%O=MFFD7NNSNW7%CC=Y%Q=)T1(R=Y%DF=Y%T=40%S=O%A=S+%F=AS%RD=0%Q=)T2(R=N
+OS:)T3(R=N)T4(R=Y%DF=Y%T=40%W=0%S=A%A=Z%F=R%O=%RD=0%Q=)T5(R=Y%DF=Y%T=40%W=0
+OS:%S=Z%A=S+%F=AR%O=%RD=0%Q=)T6(R=Y%DF=Y%T=40%W=0%S=A%A=Z%F=R%O=%RD=0%Q=)T7
+OS:(R=Y%DF=Y%T=40%W=0%S=Z%A=S+%F=AR%O=%RD=0%Q=)U1(R=Y%DF=N%T=40%IPL=164%UN=
+OS:0%RIPL=G%RID=G%RIPCK=G%RUCK=G%RUD=G)IE(R=Y%DFI=N%T=40%CD=S)
+
+Uptime guess: 5.465 days (since Thu Dec 12 06:05:38 2024)
+Network Distance: 0 hops
+TCP Sequence Prediction: Difficulty=261 (Good luck!)
+IP ID Sequence Generation: All zeros
+
+NSE: Script Post-scanning.
+Initiating NSE at 17:14
+Completed NSE at 17:14, 0.00s elapsed
+Initiating NSE at 17:14
+Completed NSE at 17:14, 0.00s elapsed
+Initiating NSE at 17:14
+Completed NSE at 17:14, 0.00s elapsed
+Read data files from: /usr/share/nmap
+OS and Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+Nmap done: 1 IP address (1 host up) scanned in 18.26 seconds
+           Raw packets sent: 1110 (52.890KB) | Rcvd: 2211 (98.944KB)
+Performing traceroute to 192.168.1.67...
+Extracted MAC: Unknown MAC
+Extracted Hostname: Unknown Host
+Topology saved to /var/www/html/ShadowStrike/results/Endpoint/20241217_171419/all_endpoint.php
+Processing /var/www/html/ShadowStrike/results/Endpoint/20241217_171419//all_endpoint.txt
+Sent /var/www/html/ShadowStrike/results/Endpoint/20241217_171419//report.pdf to Telegram successfully.
+Sent /var/www/html/ShadowStrike/results/Endpoint/20241217_171419//attack_commands.pdf to Telegram successfully.
+Sent /var/www/html/ShadowStrike/results/Endpoint/20241217_171419//solutions.pdf to Telegram successfully.
+All reports processed and sent to Telegram.
+
+Error Code: 0
+
+

@@ -1,0 +1,7 @@
+[Mon Dec 23 17:18:07 EST 2024] Starting ARP spoofing cleanup...
+[Mon Dec 23 17:18:07 EST 2024] Killing the following processes:
+171882
+171883
+[Mon Dec 23 17:18:07 EST 2024] Successfully killed process with PID 171882
+[Mon Dec 23 17:18:07 EST 2024] Successfully killed process with PID 171883
+ARP spoofing cleanup completed.

@@ -1,0 +1,5 @@
+[2024-12-23 17:17:24] Log initialized.
+[2024-12-23 17:17:24] [*] DNS spoofing started on interface: eth0
+[2024-12-23 17:17:24] [*] Spoofed domains: *.com
+[2024-12-23 17:17:24] [*] Spoofed IP address: 192.168.1.67
+

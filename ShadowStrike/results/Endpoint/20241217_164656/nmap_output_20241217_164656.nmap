@@ -1,0 +1,31 @@
+# Nmap 7.94SVN scan initiated Tue Dec 17 16:47:14 2024 as: /usr/lib/nmap/nmap -T4 -A -v -oA /var/www/html/ShadowStrike/results/Endpoint/20241217_164656/nmap_output_20241217_164656 192.168.1.67
+Nmap scan report for kali (192.168.1.67)
+Host is up (0.000031s latency).
+Not shown: 999 closed tcp ports (reset)
+PORT   STATE SERVICE VERSION
+80/tcp open  http    Apache httpd 2.4.62 ((Debian))
+|_http-title: ARP Spoofing Tool
+|_http-server-header: Apache/2.4.62 (Debian)
+| http-methods: 
+|_  Supported Methods: GET POST OPTIONS HEAD
+No exact OS matches for host (If you know what OS is running on it, see https://nmap.org/submit/ ).
+TCP/IP fingerprint:
+OS:SCAN(V=7.94SVN%E=4%D=12/17%OT=80%CT=1%CU=36621%PV=Y%DS=0%DC=L%G=Y%TM=676
+OS:1F174%P=x86_64-pc-linux-gnu)SEQ(SP=101%GCD=1%ISR=10D%TI=Z%CI=Z%II=I%TS=A
+OS:)OPS(O1=MFFD7ST11NW7%O2=MFFD7ST11NW7%O3=MFFD7NNT11NW7%O4=MFFD7ST11NW7%O5
+OS:=MFFD7ST11NW7%O6=MFFD7ST11)WIN(W1=8200%W2=8200%W3=8200%W4=8200%W5=8200%W
+OS:6=8200)ECN(R=Y%DF=Y%T=40%W=8200%O=MFFD7NNSNW7%CC=Y%Q=)T1(R=Y%DF=Y%T=40%S
+OS:=O%A=S+%F=AS%RD=0%Q=)T2(R=N)T3(R=N)T4(R=Y%DF=Y%T=40%W=0%S=A%A=Z%F=R%O=%R
+OS:D=0%Q=)T5(R=Y%DF=Y%T=40%W=0%S=Z%A=S+%F=AR%O=%RD=0%Q=)T6(R=Y%DF=Y%T=40%W=
+OS:0%S=A%A=Z%F=R%O=%RD=0%Q=)T7(R=Y%DF=Y%T=40%W=0%S=Z%A=S+%F=AR%O=%RD=0%Q=)U
+OS:1(R=Y%DF=N%T=40%IPL=164%UN=0%RIPL=G%RID=G%RIPCK=G%RUCK=G%RUD=G)IE(R=Y%DF
+OS:I=N%T=40%CD=S)
+
+Uptime guess: 5.446 days (since Thu Dec 12 06:05:39 2024)
+Network Distance: 0 hops
+TCP Sequence Prediction: Difficulty=257 (Good luck!)
+IP ID Sequence Generation: All zeros
+
+Read data files from: /usr/share/nmap
+OS and Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+# Nmap done at Tue Dec 17 16:47:32 2024 -- 1 IP address (1 host up) scanned in 17.94 seconds

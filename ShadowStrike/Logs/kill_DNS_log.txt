@@ -1,0 +1,4 @@
+[Mon Dec 23 16:25:40 EST 2024] Starting DNS spoofing cleanup...
+[Mon Dec 23 16:25:40 EST 2024] Script executed by: root on kali
+[Mon Dec 23 16:25:40 EST 2024] No processes containing 'dns_spoof.py' found.
+[Mon Dec 23 16:25:40 EST 2024] DNS spoofing cleanup completed.
